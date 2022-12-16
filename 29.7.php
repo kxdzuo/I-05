@@ -1,9 +1,11 @@
 <?php
-    $test = 11;
-    $test1 = 12;
-    if ($test > $test1) {
-        echo '+';
-    } else {
-        echo '-';
-    }
+	$test1 = 1;
+	$test2 = 2;
+	
+	if ($test2 > $test1) {
+		echo 'test2 > test1'; 
+			
+	} else {
+		echo 'test2 < test1';
+	}
 ?>

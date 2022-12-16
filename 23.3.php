@@ -1,4 +1,4 @@
 <?php
- $user = ['name' =>'Руслан ', 'surname' =>'Русланович ', 'patronymic' =>'Русланоивич '];
- echo $user['name'], $user['surname'], $user['patronymic'];
+	$arr = ['name' => 'Pavel', 'surname' => 'Ryzhenkov', 'patronymic' => 'Sergeevich'];
+	echo $arr['name'].' '. $arr['surname'].' '. $arr['patronymic'];
 ?>

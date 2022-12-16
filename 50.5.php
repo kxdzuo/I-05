@@ -1,25 +1,10 @@
 <?php
-$arr=['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
-    foreach ($arr as $elem) {
-        if ($elem == 'Понедельник'){
-            echo $elem.'<br>';
-        }
-        else if ($elem == 'Вторник'){
-            echo $elem.'<br>';
-        }
-        else if ($elem == 'Среда'){
-            echo $elem.'<br>';
-        }
-        else if ($elem == 'Четверг'){
-            echo $elem.'<br>';
-        }
-        else if ($elem == 'Пятница'){
-            echo $elem.'<br>';
-        }
-        else if ($elem == 'Суббота'){
-            echo '<strong>Суббота</strong> <br>';
-        }
-        else if ($elem == 'Воскресенье'){
-            echo '<strong>Воскресенье</strong>';
-        }
-    }
+	$arr = [1 => 'Понедельник ', 2 => 'Вторник ', 3 => 'Среда ', 4 => 'Четверг ', 5 => 'Пятница ', 6 => 'Суббота ', 7 => 'Воскресенье'];
+	foreach ($arr as $key => $elem) {
+		if ($key == 6 or $key == 7){
+			echo '<b>'. $elem .'</b>';
+		} else{
+			echo $elem;
+		}
+	}
+?>

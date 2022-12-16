@@ -1,4 +1,7 @@
-<?php
-    $arr = [7 => 'value1', 50 => 'value2', 23 => 'value3'];
-    echo $arr[7], $arr[50], $arr[23];
+<?php 
+	$arr = [1 => 'value1', 2=> 'value2', 3=> 'value3'];
+
+	echo $arr[1];
+	echo $arr[2];
+	echo $arr[3];
 ?>

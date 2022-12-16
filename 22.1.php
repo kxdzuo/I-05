@@ -1,4 +1,5 @@
-<?php
-$arr = ['a', 'b', 'c'];
-var_dump($arr);
+<?php   
+    $arr = ['a', 'b', 'c'];
+    echo $arr;
+    var_dump($arr);
 ?>

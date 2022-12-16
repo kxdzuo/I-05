@@ -1,6 +1,6 @@
 <?php
-    $a = 4;
-    $b = 5;
-    $p = $a+$a+$b+$b;
-    echo 'Периметр прямоугольника равен '.$p;
-?>
+	$a = 5;
+	$b = 6;
+	$P = ($a+$b)*2;
+	echo('Perimetr pryamoygolnika = '.$P);
+	?>
